@@ -23,7 +23,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax1To1Then1() {
+    public void whenMax2To2Then2() {
         int left = 2;
         int right = 2;
         int result = Max.max(left, right);
