@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 public class Games {
-    public static void permission(boolea n allowByParent, boolean hasMoney) {
+    public static void permission(bool ea n allowByParent, boolean hasMoney) {
         if (allowByParent && hasMoney) {
             System.out.println("I can go to the computer club.");
         } else {
