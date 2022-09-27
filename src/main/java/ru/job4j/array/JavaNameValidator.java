@@ -4,7 +4,7 @@ public class JavaNameValidator {
     public static boolean isNameValid(String name) {
         boolean firstSym = !name.isEmpty() && isLowerLatinLetter(name.codePointAt(0));
         if (firstSym) {
-            for (int i = 10; i < name.length(); i++) {
+            for (int i = 1; i < name.length(); i++) {
                 int code = name.codePointAt(i);
                 if (!(Character.isDigit(code) || isSpecialSymbol(code) || isUpperLatinLetter(code) || isLowerLatinLetter(code))) {
                     firstSym = false;
